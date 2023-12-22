@@ -1,17 +1,15 @@
-
-import './App.css'
+import NAVBAR from "./pages/Nav-Bar";
 
 function App() {
-
-
   return (
     <>
-      <div className='bg-blue-600'>
-        <p className='text-white font-bold underline'>hello world</p>
-<p> navBar here</p>
-      </div>
+      <div className="py-[31px] px-[150px] bg-primary-bg">
+      <NAVBAR></NAVBAR>
+      <div></div>
+        </div>
+     
     </>
-  )
+  );
 }
 
-export default App
+export default App;
