@@ -1,8 +1,8 @@
 function NavBar() {
   return (
     <>
-      <nav className="">
-        <div className=" flex  justify-between items-center ">
+      <nav className="px-6">
+        <div className="flex justify-between items-center ">
           <h1 className="text-secondery-bg">brahma kumaris</h1>
 
           <div>
